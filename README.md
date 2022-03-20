@@ -26,3 +26,6 @@ The program will print a long string of text that you can then paste into any te
 ![image](https://user-images.githubusercontent.com/42397332/159162049-19eee235-cd6c-42fb-a3ce-b3650fdf505d.png)
 
 ![image](https://user-images.githubusercontent.com/42397332/159162081-fbd79a8f-11bc-42c4-be9e-668ff83e4d13.png)
+
+## Credits
+RGB to HEX and HEX to RGB functions written by [Sachin Rastogi](https://www.codespeedy.com/convert-rgb-to-hex-color-code-in-python/)

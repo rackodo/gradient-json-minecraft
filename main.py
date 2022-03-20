@@ -1,9 +1,10 @@
 # Minecraft JSON gradient generator. If you use this script in any of your personal projects, please credit me and link the repository.
-# Script by Bash Elliott, reachable by spicethings9@gmail.com.
+# Script by Bash Elliott.
 
 import numpy as np
 
-# Hex to RGB and RGB to Hex functions by Sachin Rastogi. https://www.codespeedy.com/convert-rgb-to-hex-color-code-in-python/
+# Hex to RGB and RGB to Hex functions by Sachin Rastogi. 
+# https://www.codespeedy.com/convert-rgb-to-hex-color-code-in-python/
 def hextorgb(hex):
     hex = hex.lstrip('#')
     return(tuple(int(hex[i:i+2], 16) for i in (0, 2, 4)))

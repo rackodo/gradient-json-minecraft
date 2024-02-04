@@ -1,31 +1,49 @@
-# gradient-json-minecraft
-Python script that generates a Minecraft json string with a linear gradient between two hex codes.
 
-## Usage
-Download the repository and open the python file inside. The file automatically closes after printing the ending string, so make sure you open it in an existing terminal.
+# Multiple Colors Gradients JSON Generator
 
-### Prompts
-![image](https://user-images.githubusercontent.com/42397332/159161930-ae0f0e09-66b2-4e0e-80db-ef0c1506f422.png)
+This python script generates a minecraft json array to make the color of the text a gradient between multiple colors.
 
-**Text:** The string to make into a gradient.
+## Features
 
-**Color A:** The first colour of the gradient as a hexcode. The gradient is generated left to right, so this will be the leftmost colour. The # is optional.
+- Create a json array of multiple coloured text gradients.
+- Every json attribute (Bold, Italic...).
+- Click Event.
 
-**Color B:** The second colour of the gradient as a hexcode. The rightmost colour. The # is optional.
-
-**Bold?:** Bold text? Any input other than _true_ (case sensitive) will be considered false.
-
-**Underline?:** Underlined text? Any input other than _true_ (case sensitive) will be considered false.
-
-**Italics?:** Italic text? Any input other than _true_ (case sensitive) will be considered false.
-
-### Output
-
-The program will print a long string of text that you can then paste into any tellraw command or other command that accepts JSON.
-
-![image](https://user-images.githubusercontent.com/42397332/159162049-19eee235-cd6c-42fb-a3ce-b3650fdf505d.png)
-
-![image](https://user-images.githubusercontent.com/42397332/159162081-fbd79a8f-11bc-42c4-be9e-668ff83e4d13.png)
+## Author
+[@ElGeroIngles](https://modrinth.com/user/ElGeroIngles)
 
 ## Credits
-RGB to HEX and HEX to RGB functions written by [Sachin Rastogi](https://www.codespeedy.com/convert-rgb-to-hex-color-code-in-python/)
+The original script is created by [rackodo](https://github.com/rackodo) and can be found [here](https://github.com/rackodo/gradient-json-minecraft).
+
+## Usage
+Download the `gradient.py` and run it having [Python](https://www.python.org/downloads/) installed or copy the code and run it on any online Python compiler like [this](https://www.programiz.com/python-programming/online-compiler/) one.
+After you run it you will need to set the prompts:
+
+![prompts](https://i.imgur.com/2x3dDeA.png)
+
+In the end, you'll have a JSON array that can be used for example in a tellraw or whatever you want.
+
+![example](https://i.imgur.com/2xTGDv0.png)
+
+![output](https://i.imgur.com/cIzKzSp.png)
+
+## FAQ
+
+#### Q: Can I improve/tweak the code and republish it? 
+
+A: Yes you can, this project is created under the [MIT](https://choosealicense.com/licenses/mit/) license so you can basically do whatever you want with it.
+
+
+## Bug Report/Suggestions
+If you have found any bugs or have any suggestion, please create an issue [here](https://github.com/ElGeroIngles/json-multiple-gradients/issues).
+
+## 🔗 Links
+[![youtube](https://img.shields.io/badge/youtube-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@elgeroingles)
+[![discord](https://img.shields.io/badge/discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/4pYjW9btNc)
+[![modrinth](https://img.shields.io/badge/modrinth-5AD770?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/user/ElGeroIngles)
+[![github](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ElGeroIngles)
+[![BuyMeACoffe](https://img.shields.io/badge/BuyMeACoffe-ffdd02?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/ElGeroIngles)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

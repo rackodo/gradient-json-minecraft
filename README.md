@@ -1,6 +1,11 @@
 # gradient-json-minecraft
 Python script that generates a Minecraft json string with a linear gradient between two hex codes.
 
+## ⚠️ ARCHIVED ⚠️
+This is an old version of the Gradient JSON Generator. The new repository managed by [ElGeroIngles](https://github.com/ElGeroIngles) contains more features and is more recently updated.
+
+**The new repository can be found [here](https://github.com/ElGeroIngles/json-multiple-gradients).**
+
 ## Usage
 Download the repository and open the python file inside. The file automatically closes after printing the ending string, so make sure you open it in an existing terminal.
 
